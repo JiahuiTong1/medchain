@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use medchain, please cite the software and the two method papers below."
+title: "medchain: reputation-driven committee-consensus federated learning for trustworthy healthcare blockchains"
+version: 0.1.34
+license: MIT
+authors:
+  - family-names: "Tong"
+    given-names: "Jiahui"
+    email: "jton0982@uni.sydney.edu.au"
+    affiliation: "School of Public Health, Faculty of Medicine and Health, The University of Sydney, Camperdown NSW 2050, Australia"
+repository-code: "https://github.com/USER/medchain"
+# date-released and doi (Zenodo) to be added at first release.
+references:
+  - type: article
+    title: "A blockchain-based decentralized federated learning framework with committee consensus"
+    authors: [{family-names: Li, given-names: Yuzheng}, {family-names: Chen, given-names: Chuan}, {family-names: Liu, given-names: Nan}, {family-names: Huang, given-names: Huawei}, {family-names: Zheng, given-names: Zibin}, {family-names: Yan, given-names: Qiang}]
+    journal: "IEEE Network"
+    volume: 35
+    issue: 1
+    year: 2021
+    doi: "10.1109/MNET.011.2000263"
+  - type: article
+    title: "Blockchain and trusted reputation assessment-based incentive mechanism for healthcare services"
+    authors: [{family-names: Liu, given-names: Yanhua}, {family-names: Liu, given-names: Zhihuang}, {family-names: Zhang, given-names: Qiu}, {family-names: Su, given-names: Jinshu}, {family-names: Cai, given-names: Zhiping}, {family-names: Li, given-names: Xiaoyan}]
+    journal: "Future Generation Computer Systems"
+    volume: 154
+    year: 2024
+    doi: "10.1016/j.future.2023.12.023"

@@ -1,0 +1,6 @@
+# sdist contents beyond setuptools' defaults (README, LICENSE, pyproject, src/, tests/):
+# the citation file the README points to, the changelog the manuscript refers to,
+# and the two example scripts Section 3 of the manuscript is built on (audit, round 30).
+include CHANGELOG.md
+include CITATION.cff
+recursive-include examples *.py
