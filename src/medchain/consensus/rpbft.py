@@ -104,7 +104,18 @@ def _ranked_ids(node_ids, reputations):
 
 
 def select_committee(node_ids, reputations, c_num):
-    """Split ranked nodes into (committee, validators); committee = top c_num."""
+    """Split ranked nodes into (committee, validators); committee = top c_num.
+
+    Reject invalid direct calls instead of returning overlapping groups or
+    silently slicing an impossible committee size.
+    """
+    if len(set(node_ids)) != len(node_ids):
+        raise ValueError("node_ids must be unique")
+    if isinstance(c_num, bool) or not isinstance(c_num, (int, np.integer)) or not 1 <= c_num < len(node_ids):
+        raise ValueError("require integer 1 <= c_num < number of nodes")
+    missing = [nid for nid in node_ids if nid not in reputations]
+    if missing:
+        raise ValueError(f"reputations has no entry for node id(s) {missing}")
     ranked = _ranked_ids(node_ids, reputations)
     return ranked[:c_num], ranked[c_num:]
 

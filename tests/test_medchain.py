@@ -1400,3 +1400,16 @@ def test_election_overwritten_after_construction_still_raises():
     sim.election = "reputation"                     # recoverable: the next call is an ordinary round 2
     sim.run_round()
     assert len(sim.history) == 2 and sim._round == 2
+
+
+def test_select_committee_rejects_duplicate_ids_direct_api():
+    import pytest
+    from medchain.consensus.rpbft import select_committee
+    with pytest.raises(ValueError, match="unique"):
+        select_committee(["a", "a"], {"a": 0.5}, 1)
+
+def test_select_committee_rejects_invalid_size_direct_api():
+    import pytest
+    from medchain.consensus.rpbft import select_committee
+    with pytest.raises(ValueError, match="integer"):
+        select_committee(["a", "b"], {"a": 0.5, "b": 0.4}, 3)
