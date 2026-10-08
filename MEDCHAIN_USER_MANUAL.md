@@ -1,7 +1,7 @@
 # MedChain User Manual
 
 **Software:** `medchain`  
-**Package version:** 0.1.34  
+**Package version:** 0.1.35  
 **Manual edition:** October 8, 2026  
 **Audience:** Researchers, developers, and students experimenting with reputation-driven committee-consensus federated learning.
 
