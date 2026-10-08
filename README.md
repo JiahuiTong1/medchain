@@ -113,3 +113,5 @@ in `CHANGELOG.md`.
 ## Citing
 
 See `CITATION.cff`. Please also cite the two source papers listed there.
+
+## [v0.1.35] - 2026-10-08
