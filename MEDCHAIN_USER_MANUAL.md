@@ -27,7 +27,7 @@ The project's package metadata declares support for Python 3.10–3.14. The repa
 
 ### 3.1 Extract the package
 
-Extract `medchain-fixed-2026-10-08.zip` to a directory of your choice. Open a terminal in the extracted **`medchain-main`** directory (the one containing `pyproject.toml`).
+Download the v0.1.35 source archive from https://github.com/JiahuiTong1/medchain/releases/tag/v0.1.35 and extract it. Open a terminal in the extracted source directory (the one containing `pyproject.toml`). Alternatively, clone the repository and check out tag `v0.1.35`.
 
 ### 3.2 Create a virtual environment (recommended)
 
