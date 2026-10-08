@@ -7,7 +7,7 @@ authors:
   - family-names: "Tong"
     given-names: "Jiahui"
 repository-code: "https://github.com/JiahuiTong1/medchain"
-# date-released and doi (Zenodo) to be added at first release.
+date-released: 2026-10-08
 references:
   - type: article
     title: "A blockchain-based decentralized federated learning framework with committee consensus"
