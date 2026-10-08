@@ -1,5 +1,14 @@
 # Changelog
 
+## v0.1.35 (2026-10-08) — release metadata alignment
+
+- Updated package metadata and `medchain.__version__` to 0.1.35.
+- Updated `CITATION.cff` with the author-supplied Zenodo DOI `10.5281/zenodo.23230470`.
+- Added release and citation information to `README.md`.
+- Retained earlier changelog entries as historical records.
+- The accompanying v0.1.34-based corrected package includes prior code fixes; this metadata update does not introduce new algorithm changes.
+
+
 ## v0.1.34 (2026-09-12) -- freeze candidate
 Round-34 audit: a closing consistency pass over the whole deliverable
 (version strings in six places, test count in four, the

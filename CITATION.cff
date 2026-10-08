@@ -1,13 +1,15 @@
 cff-version: 1.2.0
 message: "If you use medchain, please cite the software and the two method papers below."
 title: "medchain: reputation-driven committee-consensus federated learning for trustworthy healthcare blockchains"
-version: 0.1.34
+version: 0.1.35
+date-released: 2026-10-08
 license: MIT
+doi: "10.5281/zenodo.23230470"
+url: "https://doi.org/10.5281/zenodo.23230470"
 authors:
   - family-names: "Tong"
     given-names: "Jiahui"
 repository-code: "https://github.com/JiahuiTong1/medchain"
-date-released: 2026-10-08
 references:
   - type: article
     title: "A blockchain-based decentralized federated learning framework with committee consensus"

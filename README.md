@@ -1,5 +1,7 @@
 # medchain
 
+[![DOI](https://zenodo.org/badge/1409589461.svg)](https://doi.org/10.5281/zenodo.23230469)
+
 Reputation-driven committee-consensus federated learning for trustworthy
 healthcare blockchains.
 
@@ -110,8 +112,16 @@ core integration claim above together with its forced-rotation robustness
 arm, and one regression test per defect found in the audit rounds recorded
 in `CHANGELOG.md`.
 
+
+## Software release and citation
+
+- **Current release:** v0.1.35
+- **Author:** Jiahui Tong
+- **Software DOI:** [10.5281/zenodo.23230470](https://doi.org/10.5281/zenodo.23230470)
+- **Source code:** https://github.com/JiahuiTong1/medchain
+
+For citation metadata, use [`CITATION.cff`](CITATION.cff). The DOI was supplied by the software author; verify the archived Zenodo version before citing this specific release.
+
 ## Citing
 
 See `CITATION.cff`. Please also cite the two source papers listed there.
-
-## [v0.1.35] - 2026-10-08
